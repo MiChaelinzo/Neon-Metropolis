@@ -6,7 +6,7 @@ How to play
 -----------
 Currently there are no binary releases, so you're going to have to set up a dev environment to play the game.
 1. Install [Unity](https://unity3d.com/).
-2. Clone this repo. `git clone https://github.com/Saltosion/Cyber`
+2. Clone this repo. `git clone https://github.com/Michaelinzo/Neon-Metropolis`
 3. Download the assets from the [Dependencies](#dependencies) list, and put them in /path/to/Cyber/Assets/AssetStoreTools.
 4. Launch Unity, open this repo's directory as a project.
 5. In Unity, go to File -> Build Settings -> Build (remember to choose your platform from the list).
