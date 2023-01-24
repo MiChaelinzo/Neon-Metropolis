@@ -1,0 +1,2372 @@
+Using pre-set license
+Built from '2022.2/release' branch; Version is '2022.2.0b16 (3c3b3e6cd1d7) revision 3947326'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.25281) 64bit Enterprise' Language: 'en' Physical Memory: 16142 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\2022.2.0b16\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/insoa/Downloads/Cyber
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51699
+Successfully changed project path to: C:/Users/insoa/Downloads/Cyber
+C:/Users/insoa/Downloads/Cyber
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 30.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.0b16 (3c3b3e6cd1d7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2022.2.0b16/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/insoa/Downloads/Cyber/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX250 (ID=0x1d13)
+    Vendor:   NVIDIA
+    VRAM:     4026 MB
+    Driver:   31.0.15.2656
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/2022.2.0b16/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/2022.2.0b16/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/2022.2.0b16/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56392
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/2022.2.0b16/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/2022.2.0b16/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.044120 seconds.
+- Loaded All Assemblies, in  1.460 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.025 seconds
+Domain Reload Profiling: 2473ms
+	BeginReloadAssembly (296ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (5ms)
+	RebuildCommonClasses (141ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (299ms)
+	LoadAllAssembliesAndSetupDomain (669ms)
+		LoadAssemblies (285ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (626ms)
+			TypeCache.Refresh (623ms)
+				TypeCache.ScanAssembly (584ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1027ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (776ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (546ms)
+			ProcessInitializeOnLoadMethodAttributes (181ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Registering precompiled user dll's ...
+Registered in 0.010033 seconds.
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.038 seconds
+Refreshing native plugins compatible for Editor in 10.71 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.557 seconds
+Domain Reload Profiling: 3584ms
+	BeginReloadAssembly (379ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (120ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (155ms)
+	LoadAllAssembliesAndSetupDomain (1337ms)
+		LoadAssemblies (252ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1248ms)
+			TypeCache.Refresh (949ms)
+				TypeCache.ScanAssembly (908ms)
+			ScanForSourceGeneratedMonoScriptInfo (292ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1559ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1043ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (18ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (160ms)
+			ProcessInitializeOnLoadAttributes (723ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (29ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 14.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1784 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (57.4 KB). Loaded Objects now: 2251.
+Memory consumption went from 302.4 MB to 302.3 MB.
+Total: 8.584400 ms (FindLiveObjects: 1.054100 ms CreateObjectMapping: 0.376900 ms MarkObjects: 6.946500 ms  DeleteObjects: 0.205000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23882.966300 seconds.
+  path: Assets/Thirdweb/Scripts
+  artifactKey: Guid(af29eaecdce584692893f0ec8b86f188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Thirdweb/Scripts using Guid(af29eaecdce584692893f0ec8b86f188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811aa5c8d661d11c34bf70754084704f') in 0.010370 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.496561 seconds.
+  path: Assets/Fonts/Monospace.ttf
+  artifactKey: Guid(2073ef28104464427b1884c25180485b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fonts/Monospace.ttf using Guid(2073ef28104464427b1884c25180485b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b426edcb5becef83b9d34e12f6765f6') in 0.367684 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 6873.927072 seconds.
+  path: Assets/CyberCity/demoUIcanvas.prefab
+  artifactKey: Guid(85c2a44f735b6c340bc210202cfa7282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/demoUIcanvas.prefab using Guid(85c2a44f735b6c340bc210202cfa7282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb548b50f3a362c79a1c4c3af4c27ec') in 0.398842 seconds 
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 7.375850 seconds.
+  path: Assets/CyberCity/city 2021.unity
+  artifactKey: Guid(89316b14a89525e4bb1641cabfd61344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/city 2021.unity using Guid(89316b14a89525e4bb1641cabfd61344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8953459fa6821c5c274df67d46fdeac') in 0.006034 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.563205 seconds.
+  path: Assets/Models/Andoid.blend
+  artifactKey: Guid(2bf8fe665daaec24d9b2641222f178a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/Andoid.blend using Guid(2bf8fe665daaec24d9b2641222f178a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a130637563697141e94afb387e690bc') in 0.967514 seconds 
+Number of asset objects unloaded after import = 154
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Models/TwoFacedQuad.blend
+  artifactKey: Guid(8d9188969010c44ce935ad4421c967df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Models/TwoFacedQuad.blend using Guid(8d9188969010c44ce935ad4421c967df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d5c10dda0a818181b8987b007ab2a1') in 0.053984 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 4.719805 seconds.
+  path: Assets/PostProcessingProfiles/DefaultPP.asset
+  artifactKey: Guid(9b37d8da88a424e7b89894da2e5ce5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PostProcessingProfiles/DefaultPP.asset using Guid(9b37d8da88a424e7b89894da2e5ce5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2b2c5b3bca399c34c35ad5140fd92f') in 0.019654 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.570527 seconds.
+  path: Assets/Prefabs/Building.prefab
+  artifactKey: Guid(03523048e15d74908b251a069e8163fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Building.prefab using Guid(03523048e15d74908b251a069e8163fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b5211655b8d4f79c695ac66a600069') in 0.395351 seconds 
+Number of asset objects unloaded after import = 766
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Prefabs/NPC.prefab
+  artifactKey: Guid(88dbba5a284f041afbfbb6e6f52935fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/NPC.prefab using Guid(88dbba5a284f041afbfbb6e6f52935fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8de5d2886648000a9537c66b61f014d') in 0.101737 seconds 
+Number of asset objects unloaded after import = 133
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Prefabs/Revolver.prefab
+  artifactKey: Guid(fed35f862b6524339a68bb9dc36f6acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Revolver.prefab using Guid(fed35f862b6524339a68bb9dc36f6acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b4f83076472bc8a50deab5e40a18db') in 0.080014 seconds 
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Prefabs/PC.prefab
+  artifactKey: Guid(e8761b9491a974d1780e60dafbd372a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/PC.prefab using Guid(e8761b9491a974d1780e60dafbd372a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb52cbdd1d852423fa8b555c3adda30') in 1.725168 seconds 
+Number of asset objects unloaded after import = 340
+========================================================================
+Received Import Request.
+  Time since last request: 5.055500 seconds.
+  path: Packages/com.unity.ai.navigation/package.json
+  artifactKey: Guid(fbee67e09f48e4652bfa085460c895c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.ai.navigation/package.json using Guid(fbee67e09f48e4652bfa085460c895c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6bef4535345b1772834cd8ed4c1b58') in 0.052074 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.494379 seconds.
+  path: Assets/CyberCity/prefabs.unity
+  artifactKey: Guid(f6a4cafe51c58794a9208f4927b631ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/prefabs.unity using Guid(f6a4cafe51c58794a9208f4927b631ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c11c3dfeb3260cb1fb2cbc1e984583a') in 0.005608 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.518464 seconds.
+  path: Assets/CyberCity/IMPORTANT.txt
+  artifactKey: Guid(e09a32549a977284b9e2d5f174695675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/IMPORTANT.txt using Guid(e09a32549a977284b9e2d5f174695675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd8593c78cd1e14af3e2c9929d4213e') in 0.045415 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.673958 seconds.
+  path: Assets/CyberCity/ReadMe.txt
+  artifactKey: Guid(cc2c6db4c460d634080b34e67b1600cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/ReadMe.txt using Guid(cc2c6db4c460d634080b34e67b1600cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4977e1ef408c7b380c84440a2de7f59') in 0.006029 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.292935 seconds.
+  path: Assets/CyberCity/_HDRP
+  artifactKey: Guid(346d596108198834195719147e06ed4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/_HDRP using Guid(346d596108198834195719147e06ed4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d1c9e866bc61ed99d8099644092231') in 0.005434 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.183982 seconds.
+  path: Assets/CyberCity/_HDRP/cybercityHDRP.unitypackage
+  artifactKey: Guid(3ce15c58dac504f45b6ba682a6dd5af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/_HDRP/cybercityHDRP.unitypackage using Guid(3ce15c58dac504f45b6ba682a6dd5af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a39c4d9a6c65f092ff1c9519b284dc') in 0.025338 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 83.265220 seconds.
+  path: Assets/Fonts
+  artifactKey: Guid(49cf3f977fc2d495fb7d93c324be47d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Fonts using Guid(49cf3f977fc2d495fb7d93c324be47d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf839feddb3220277a18a7c9c5b526d2') in 0.006284 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.095189 seconds.
+  path: Assets/Plugin
+  artifactKey: Guid(6cf6ccd53e9c14c8b81a40069bca40f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugin using Guid(6cf6ccd53e9c14c8b81a40069bca40f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7930daf74201fcbba523a7fa4d665f34') in 0.005593 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.361086 seconds.
+  path: Assets/PostProcessingProfiles
+  artifactKey: Guid(0ca10c48ec3a649b6b9c126cb13a5814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PostProcessingProfiles using Guid(0ca10c48ec3a649b6b9c126cb13a5814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b798a28936ad6e30fb811a762a46bd1d') in 0.006611 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.737292 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(a5868833c0e1947f5b23ea32c42e2316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs using Guid(a5868833c0e1947f5b23ea32c42e2316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4c7b8b1f53247860c43abe65d63f6d') in 0.005694 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.774021 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(d1d0538d1bba847d89d50b2e6ba36edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes using Guid(d1d0538d1bba847d89d50b2e6ba36edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d90a93b305c2d1878be01a6453fc08') in 0.006421 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.990548 seconds.
+  path: Assets/Scenes/TestMap.unity
+  artifactKey: Guid(1e552a0d1c3eb4ea994f34bf49696c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/TestMap.unity using Guid(1e552a0d1c3eb4ea994f34bf49696c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb82e8af255a7c8b18e27b415a9d607') in 0.005178 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.856664 seconds.
+  path: Assets/Scenes/FrontendDevMap.unity
+  artifactKey: Guid(876c1932a8e5e45c593f4882a7c30e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/FrontendDevMap.unity using Guid(876c1932a8e5e45c593f4882a7c30e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970f1821ea35f11cfb6856ca548da14c') in 0.005523 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.301072 seconds.
+  path: Assets/CyberCity/RenderingSettings 3.asset
+  artifactKey: Guid(46a832d96347c1d4ead8f4e448dc22a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/RenderingSettings 3.asset using Guid(46a832d96347c1d4ead8f4e448dc22a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d058a10b1f65aa96828c24fc6b46293') in 0.077968 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.591857 seconds.
+  path: Assets/CyberCity/city 2021 HDRP!
+  artifactKey: Guid(cbee5747936790c4ba7a2e591bfab4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/city 2021 HDRP! using Guid(cbee5747936790c4ba7a2e591bfab4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c698d8873b7b58128822f2b34cc826') in 0.035203 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.026418 seconds.
+  path: Assets/CyberCity/city 2021 HDRP!/ReflectionProbe-0.exr
+  artifactKey: Guid(13131af9274ed2048b69773ca4ca517a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/city 2021 HDRP!/ReflectionProbe-0.exr using Guid(13131af9274ed2048b69773ca4ca517a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9199a39a01daf08d723a2cb726af3a13') in 0.633905 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/CyberCity/city 2021 HDRP!/ReflectionProbe-12.exr
+  artifactKey: Guid(4b9e2de07bd14ca46a4621358279ea37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/city 2021 HDRP!/ReflectionProbe-12.exr using Guid(4b9e2de07bd14ca46a4621358279ea37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100c43db788a1f4eba484e241b8e35cf') in 0.071687 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/CyberCity/city 2021 HDRP!/ReflectionProbe-8.exr
+  artifactKey: Guid(7b3a8b08a4e561e46b71706fc84cda16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/city 2021 HDRP!/ReflectionProbe-8.exr using Guid(7b3a8b08a4e561e46b71706fc84cda16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac2230741ef74d0d0183553df85fb74') in 0.143254 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002916 seconds.
+  path: Assets/CyberCity/city 2021 HDRP!/ReflectionProbe-10.exr
+  artifactKey: Guid(ae1c349ab7f439b45b822d23cada3565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/city 2021 HDRP!/ReflectionProbe-10.exr using Guid(ae1c349ab7f439b45b822d23cada3565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994f9d8d56044f97ecf811762e33a899') in 0.100811 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/CyberCity/city 2021 HDRP!/ReflectionProbe-15.exr
+  artifactKey: Guid(0a8f49aa67aa8cc468d91fc74284b6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/city 2021 HDRP!/ReflectionProbe-15.exr using Guid(0a8f49aa67aa8cc468d91fc74284b6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba2fda1ab5197abc628c9425d99177b') in 0.221960 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.007940 seconds.
+  path: Assets/CyberCity/city 2021 HDRP!/ReflectionProbe-2.exr
+  artifactKey: Guid(76e916fbbd7036642a44a89fe095dc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/city 2021 HDRP!/ReflectionProbe-2.exr using Guid(76e916fbbd7036642a44a89fe095dc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaadd56bac752d85dcb71cfa54a710e6') in 0.152774 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/CyberCity/city 2021 HDRP!/ReflectionProbe-17.exr
+  artifactKey: Guid(72ec5037c732ba3498f4cd228e63ae45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/city 2021 HDRP!/ReflectionProbe-17.exr using Guid(72ec5037c732ba3498f4cd228e63ae45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cf385b8a529cc6adc889ef1c0b7889') in 0.085344 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/CyberCity/city 2021 HDRP!/ReflectionProbe-14.exr
+  artifactKey: Guid(d24176e1c76a1bb4da491626a0701cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/city 2021 HDRP!/ReflectionProbe-14.exr using Guid(d24176e1c76a1bb4da491626a0701cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ba6e283d7fe2b8c0cdd13457ec44ce') in 0.081864 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/CyberCity/city 2021 HDRP!/ReflectionProbe-18.exr
+  artifactKey: Guid(d3a53e851c0c31345af964d6c288f3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/city 2021 HDRP!/ReflectionProbe-18.exr using Guid(d3a53e851c0c31345af964d6c288f3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c606e40edab1c056e6d7c7f7ebd567ca') in 0.141022 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/CyberCity/city 2021 HDRP!/ReflectionProbe-9.exr
+  artifactKey: Guid(235c2b4fb83492b47be47101da4c899e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/city 2021 HDRP!/ReflectionProbe-9.exr using Guid(235c2b4fb83492b47be47101da4c899e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083d541a23aff0a6680f2a17a8deab4b') in 0.111293 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/CyberCity/city 2021 HDRP!/ReflectionProbe-16.exr
+  artifactKey: Guid(f8f06fe9bfe5d0b46ae4689247730e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/city 2021 HDRP!/ReflectionProbe-16.exr using Guid(f8f06fe9bfe5d0b46ae4689247730e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d7c5cb4e94a34b565b3aa94ba26020') in 0.075769 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/CyberCity/city 2021 HDRP!/ReflectionProbe-20.exr
+  artifactKey: Guid(306947fedb6cb554dbe9b641856fcf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/city 2021 HDRP!/ReflectionProbe-20.exr using Guid(306947fedb6cb554dbe9b641856fcf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35c6fe3d1c092822495172fb620981e') in 0.072471 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000834 seconds.
+  path: Assets/CyberCity/city 2021 HDRP!/ReflectionProbe-3.exr
+  artifactKey: Guid(20b9708d37efece418e201a9b7e03bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/city 2021 HDRP!/ReflectionProbe-3.exr using Guid(20b9708d37efece418e201a9b7e03bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351a98785222e5b62b5249861230869d') in 0.068009 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.444043 seconds.
+  path: Assets/CyberCity/_HDRP/SETUP.txt
+  artifactKey: Guid(b279c6139d27db44db5cd52d7de51346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/_HDRP/SETUP.txt using Guid(b279c6139d27db44db5cd52d7de51346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc858d27f1e63053600ee09ccced84b') in 0.026274 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 358.028891 seconds.
+  path: Assets/CyberCity/Editor/LogoDialog.png
+  artifactKey: Guid(aa952c4d07954ff408e8129641011ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Editor/LogoDialog.png using Guid(aa952c4d07954ff408e8129641011ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4aedc7f62af9aed96a42d538cbb4f2') in 0.062562 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.346790 seconds.
+  path: Assets/CyberCity/Materials/antenna.mat
+  artifactKey: Guid(1559c2a45d4e1ab41a1b16d69390a641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/antenna.mat using Guid(1559c2a45d4e1ab41a1b16d69390a641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb88bf7803e38aa952e8b7bf41cfbb42') in 0.106091 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/CyberCity/Materials/c tree bark.mat
+  artifactKey: Guid(2982088d5c8b67643bbaf42b611bdf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/c tree bark.mat using Guid(2982088d5c8b67643bbaf42b611bdf00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a574bacd825623e23799d40008d266') in 0.025746 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/CyberCity/Materials/cable_MaskMap.png
+  artifactKey: Guid(648e8d8ad3d923a4e94ace68291e0440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/cable_MaskMap.png using Guid(648e8d8ad3d923a4e94ace68291e0440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf0a7e697681cbc8d351865bf5bbf45') in 0.038232 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CyberCity/Materials/clock 3_MaskMap.png
+  artifactKey: Guid(9ddc23f09da714542bc6ed88450f835d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/clock 3_MaskMap.png using Guid(9ddc23f09da714542bc6ed88450f835d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27203cc4082ccbce80cf9952a24d4e3f') in 0.025607 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/CyberCity/Materials/ball light 5.mat
+  artifactKey: Guid(3655f0735244f6540a14ca72ecc4246f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/ball light 5.mat using Guid(3655f0735244f6540a14ca72ecc4246f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a23357ee4763281c226add43c65399') in 0.029749 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CyberCity/Materials/Asphalt 2 B.mat
+  artifactKey: Guid(6019d8618e8ee8e4783c43e7499efbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/Asphalt 2 B.mat using Guid(6019d8618e8ee8e4783c43e7499efbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04ab4f8995b28d98870611a0e5e7084') in 0.118376 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/CyberCity/Materials/Asphalt 2 cross a.mat
+  artifactKey: Guid(043a3fb4e9c5bc240bcbc9a061372935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/Asphalt 2 cross a.mat using Guid(043a3fb4e9c5bc240bcbc9a061372935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa5040453d92e2d18368f3438fea04c') in 0.091337 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/CyberCity/Materials/bottle paper.mat
+  artifactKey: Guid(1ad2da9616e0fad418daba672646f67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/bottle paper.mat using Guid(1ad2da9616e0fad418daba672646f67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac6f2165bc62eeafd0775b2108a051e') in 0.029425 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CyberCity/Materials/clock 2.mat
+  artifactKey: Guid(94db348e48c4e8147909819e79c2bee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/clock 2.mat using Guid(94db348e48c4e8147909819e79c2bee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b82a7b8b58c773ebddbbf45fab9d61e') in 0.035102 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CyberCity/Materials/ball light 3.mat
+  artifactKey: Guid(6f31bec4e05bda14cbfb57255ddd8bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/ball light 3.mat using Guid(6f31bec4e05bda14cbfb57255ddd8bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a6917529b4add7a4f730ca972f5fa6') in 0.027747 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CyberCity/Materials/antenna_MaskMap.png
+  artifactKey: Guid(6f9f1a748fc63a341b296de89c0e192d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/antenna_MaskMap.png using Guid(6f9f1a748fc63a341b296de89c0e192d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88d4dff081e7fa7d6e06443da820f8d') in 0.019407 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/CyberCity/Materials/Asphalt 2 cross b_MaskMap.png
+  artifactKey: Guid(5d7c4ed0cbbbba748812f64ac4dad777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/Asphalt 2 cross b_MaskMap.png using Guid(5d7c4ed0cbbbba748812f64ac4dad777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484eaea3a83744d932f160495c96c217') in 0.031319 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/CyberCity/Materials/ball light 4.mat
+  artifactKey: Guid(dd3b2f0623ed06841846e5a4a13d0da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/ball light 4.mat using Guid(dd3b2f0623ed06841846e5a4a13d0da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e0cb895e62827793db8fa47a4ed26e') in 0.207278 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/CyberCity/Materials/Asphalt 2 B_MaskMap.png
+  artifactKey: Guid(128578040578a51478a128f7902283fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/Asphalt 2 B_MaskMap.png using Guid(128578040578a51478a128f7902283fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd87b50d208c7f56d5b1a15c70f60673c') in 0.030744 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/CyberCity/Materials/Asphalt 2 cross b.mat
+  artifactKey: Guid(f8b9fcf6f6891d1448ef67f9a01df14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/Asphalt 2 cross b.mat using Guid(f8b9fcf6f6891d1448ef67f9a01df14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea0072f4049b67f6208afd6e112c2d6') in 0.222428 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/CyberCity/Materials/antenna b_MaskMap.png
+  artifactKey: Guid(a78a9934e7676804993595ee09c1cf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/antenna b_MaskMap.png using Guid(a78a9934e7676804993595ee09c1cf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1fb05b9e2f74bca74479f09f25299a') in 0.025724 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/CyberCity/Materials/Asphalt 1 b.mat
+  artifactKey: Guid(355803e57fa62894b9f7c21e5b76352e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/Asphalt 1 b.mat using Guid(355803e57fa62894b9f7c21e5b76352e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2199b8f88cb6b8d14b45c76da805e006') in 0.098704 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CyberCity/Materials/cable.mat
+  artifactKey: Guid(287bf9b54d7525348b5a8fbfa4ab2a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/cable.mat using Guid(287bf9b54d7525348b5a8fbfa4ab2a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f98dfb411071c3199d2ff42d31ec856') in 0.078346 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CyberCity/Materials/clock 2_MaskMap.png
+  artifactKey: Guid(dc78137a2e5268e4aa65df17f14dc58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/clock 2_MaskMap.png using Guid(dc78137a2e5268e4aa65df17f14dc58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7503f261dbc0bd92f818cc60045ef13b') in 0.021049 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.076610 seconds.
+  path: Assets/CyberCity/Materials/clock_MaskMap.png
+  artifactKey: Guid(a3d38f1fcc7f9e5419e86144bbaae8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/clock_MaskMap.png using Guid(a3d38f1fcc7f9e5419e86144bbaae8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97066ddc31e0eb424e2430e6f0f48f9e') in 0.014526 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CyberCity/Materials/Concrete 5_MaskMap.png
+  artifactKey: Guid(8c9a6b620d1559944b628db54df65e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/Concrete 5_MaskMap.png using Guid(8c9a6b620d1559944b628db54df65e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968f279fb4e008f7e9dabbc5d307e139') in 0.022231 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CyberCity/Materials/Concrete 3_MaskMap.png
+  artifactKey: Guid(8bf5b82fe9c215349943ed3c57c4430a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/Concrete 3_MaskMap.png using Guid(8bf5b82fe9c215349943ed3c57c4430a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2bf7ab74208c32b9e5c077913d4747c') in 0.030767 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CyberCity/Materials/Concrete 6_MaskMap.png
+  artifactKey: Guid(92a4b2cf71762554a952a262c3b3698c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/Concrete 6_MaskMap.png using Guid(92a4b2cf71762554a952a262c3b3698c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c6155d462186082ddb0ad259257362') in 0.028452 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CyberCity/Materials/Concrete 1_MaskMap.png
+  artifactKey: Guid(9cdbf63d04cbf0a4ebd5d2b58f2fcb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/Concrete 1_MaskMap.png using Guid(9cdbf63d04cbf0a4ebd5d2b58f2fcb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e864a8b80561dfc58bd16849a30a9eb5') in 0.030463 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CyberCity/Materials/Concrete 5.mat
+  artifactKey: Guid(0c2e65716756caf4c9567892db2726f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/Concrete 5.mat using Guid(0c2e65716756caf4c9567892db2726f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250273efe4f9db47c382b6059e72617f') in 0.054345 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/CyberCity/Materials/Concrete 1.mat
+  artifactKey: Guid(5f115549357d56742a1dffa78b66a3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/Concrete 1.mat using Guid(5f115549357d56742a1dffa78b66a3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2bc4cd39190f9475c605be75da2c8b5') in 0.086219 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/CyberCity/Materials/Concrete 3.mat
+  artifactKey: Guid(618f5140ada705747ad3044d416e2e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/Concrete 3.mat using Guid(618f5140ada705747ad3044d416e2e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070343be5a582f9be015fd23c383f0ac') in 0.046189 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CyberCity/Materials/Concrete 7.mat
+  artifactKey: Guid(756a1b670ded70440a69b0e4ef58f40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/Concrete 7.mat using Guid(756a1b670ded70440a69b0e4ef58f40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ace709a181275039f4ad3414943a7f') in 0.081415 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CyberCity/Materials/cloud_mat.mat
+  artifactKey: Guid(7aa36ea7023554d42b05e74dafda71bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/cloud_mat.mat using Guid(7aa36ea7023554d42b05e74dafda71bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0456c6321b0accc80dc8338175b1c9ad') in 0.024472 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.312725 seconds.
+  path: Assets/CyberCity/Materials/Concrete 7_MaskMap.png
+  artifactKey: Guid(efe757ca1ee48c14987672efd5cc5a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/Concrete 7_MaskMap.png using Guid(efe757ca1ee48c14987672efd5cc5a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0703c5c41a2213b812b710ba9881d208') in 0.025260 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/CyberCity/Materials/Concrete 8_MaskMap.png
+  artifactKey: Guid(2347b727f06ca7642bc4dec11ead7eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/Concrete 8_MaskMap.png using Guid(2347b727f06ca7642bc4dec11ead7eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446568533cf8582ccb51a7b30df21032') in 0.041683 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/CyberCity/Materials/detail2.mat
+  artifactKey: Guid(11dcb4a4a75ce9f4e86ceb8fa20ecc99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/detail2.mat using Guid(11dcb4a4a75ce9f4e86ceb8fa20ecc99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a9feeebbb0a2dec416408c90978735') in 0.113190 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/CyberCity/Materials/doors out 2_MaskMap.png
+  artifactKey: Guid(80dfe6cd25d9d4645bf14a1cc780ad98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/doors out 2_MaskMap.png using Guid(80dfe6cd25d9d4645bf14a1cc780ad98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83e7deef62d225920aa9d8429d23d88') in 0.039390 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/CyberCity/Materials/doors out 3_MaskMap.png
+  artifactKey: Guid(da199b52ef13e0c468bc145d75822fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/doors out 3_MaskMap.png using Guid(da199b52ef13e0c468bc145d75822fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3be384270259744e299dfa949be973c') in 0.035579 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CyberCity/Materials/doors out 2.mat
+  artifactKey: Guid(505e54930146bc74b896ba691455ee89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/doors out 2.mat using Guid(505e54930146bc74b896ba691455ee89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32510f3e2611c7bb5ee3bdd53e82e380') in 0.084636 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CyberCity/Materials/detail2_MaskMap.png
+  artifactKey: Guid(25667481ef2603f4082da9179d4acd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/detail2_MaskMap.png using Guid(25667481ef2603f4082da9179d4acd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31afe496525289f5bb832a83338b3a42') in 0.031419 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CyberCity/Materials/doors out.mat
+  artifactKey: Guid(7bd49557805e94e45a635bf6ae4bbd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/doors out.mat using Guid(7bd49557805e94e45a635bf6ae4bbd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19dc2c4a01815c5628478f6ee19ee660') in 0.091420 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/CyberCity/Materials/Concrete 9.mat
+  artifactKey: Guid(54e852a3c018840409ae62161c230bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/Concrete 9.mat using Guid(54e852a3c018840409ae62161c230bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b1a0ac21dd55c4373a47f1ceac8447') in 0.086159 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/CyberCity/Materials/doors out 3.mat
+  artifactKey: Guid(0fba952ec760edc4eafd98a2af38edc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials/doors out 3.mat using Guid(0fba952ec760edc4eafd98a2af38edc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ef3d1de667ff47960526694759369b') in 0.082431 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.519001 seconds.
+  path: Assets/CyberCity/Mesh/chamfer.FBX
+  artifactKey: Guid(cd2adfe746dcfef4eb43cf0fa82a89cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/chamfer.FBX using Guid(cd2adfe746dcfef4eb43cf0fa82a89cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca75bb9eb7ad76d0f4b3593e6f5c735') in 0.072333 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/CyberCity/Mesh/dist building_3.FBX
+  artifactKey: Guid(6089ddb0eaec50746a2619479f1536e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/dist building_3.FBX using Guid(6089ddb0eaec50746a2619479f1536e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3de87a5bb0234354010f4ef25634a21') in 0.069231 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/CyberCity/Mesh/cup b.FBX
+  artifactKey: Guid(39a38b1cbb0e3be489221e3326aa4912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/cup b.FBX using Guid(39a38b1cbb0e3be489221e3326aa4912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8408056b8b283ab466c9224151eeb0') in 0.037187 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CyberCity/Mesh/column 1 thin.FBX
+  artifactKey: Guid(947077bc23ab2c64f8a82c0901507017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/column 1 thin.FBX using Guid(947077bc23ab2c64f8a82c0901507017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7fc80db8f1d27f1b4632cb70c07bba2') in 0.047890 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/CyberCity/Mesh/fence door.FBX
+  artifactKey: Guid(1c37b5d68f5c04c4c853f3cebb98d1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/fence door.FBX using Guid(1c37b5d68f5c04c4c853f3cebb98d1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c3bc6d3240a8e373e2fb86eb257799') in 0.071735 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/CyberCity/Mesh/cigarette.FBX
+  artifactKey: Guid(8ecf08238fb4b8b48984ca9206c7348b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/cigarette.FBX using Guid(8ecf08238fb4b8b48984ca9206c7348b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a976540816b3174130acb85a1c6eb8f') in 0.044986 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/CyberCity/Mesh/fence tile half.FBX
+  artifactKey: Guid(ef8ce7303038b174fa4b9b82784697a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/fence tile half.FBX using Guid(ef8ce7303038b174fa4b9b82784697a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6ab7b30431d915d1b76fbf2b201cef') in 0.073781 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/CyberCity/Mesh/cigarette b.FBX
+  artifactKey: Guid(f70c203597ff26e4485ae92136203782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/cigarette b.FBX using Guid(f70c203597ff26e4485ae92136203782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ee4e971f97b6d0471016ed463d6f2e') in 0.033317 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/CyberCity/Mesh/column 2.FBX
+  artifactKey: Guid(66d2de2a32123d94caeae6ab40852753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/column 2.FBX using Guid(66d2de2a32123d94caeae6ab40852753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd893f3e70f3a6ae3b00a007408d0f3ee') in 0.060858 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CyberCity/Mesh/conditioning hldr.FBX
+  artifactKey: Guid(7b4b4e46321ebe643bc9515ca2b170f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/conditioning hldr.FBX using Guid(7b4b4e46321ebe643bc9515ca2b170f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cfd9ceea36a68cd97d57b329451d47b') in 0.069519 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CyberCity/Mesh/cigarette box b.FBX
+  artifactKey: Guid(8c00af7c6cc033b4594618c4d1cfb06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/cigarette box b.FBX using Guid(8c00af7c6cc033b4594618c4d1cfb06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e8b4a4a5de3c23b063702c3249f2c6') in 0.046173 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/CyberCity/Mesh/fork.FBX
+  artifactKey: Guid(f103240287518824cb9d93e6ea15534d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/fork.FBX using Guid(f103240287518824cb9d93e6ea15534d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0bd259741fc74a239581fc9a33889b') in 0.049937 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/CyberCity/Mesh/garbage.FBX
+  artifactKey: Guid(b29407c577c6862478cacd88413c725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/garbage.FBX using Guid(b29407c577c6862478cacd88413c725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98794522a1d3150c171286095dad8460') in 0.056197 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/CyberCity/Mesh/dirty corner out.FBX
+  artifactKey: Guid(f453d3660ccb73f4188b5fe4d7df18c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/dirty corner out.FBX using Guid(f453d3660ccb73f4188b5fe4d7df18c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681b3d87a1eed45eacf0abd2f43ecb06') in 0.044574 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/CyberCity/Mesh/conditioning 1.FBX
+  artifactKey: Guid(a6efc8c5f89e9ef44b799684bdcb9039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/conditioning 1.FBX using Guid(a6efc8c5f89e9ef44b799684bdcb9039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43a5b2b2ee048983a086dd691c8d324') in 0.085157 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/CyberCity/Mesh/cigarette box.FBX
+  artifactKey: Guid(0c623990665628a4b9a7ffd1e4911081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/cigarette box.FBX using Guid(0c623990665628a4b9a7ffd1e4911081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd573b87ef5838ea197fb6c145d3418f1') in 0.092373 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CyberCity/Mesh/fire ladder.FBX
+  artifactKey: Guid(3fbe544fe3fd1044894cdd5232ec2aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/fire ladder.FBX using Guid(3fbe544fe3fd1044894cdd5232ec2aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6260462dc16ff52ede805975707a9e96') in 0.140328 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/CyberCity/Mesh/fence pole door.FBX
+  artifactKey: Guid(16c1ec6321ffa6448a715731252dd58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/fence pole door.FBX using Guid(16c1ec6321ffa6448a715731252dd58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc0306c23f19490d6709ff756b98b3c') in 0.087874 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/CyberCity/Mesh/cup.FBX
+  artifactKey: Guid(b45901a7a94c03449a3e9fdc7d964b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/cup.FBX using Guid(b45901a7a94c03449a3e9fdc7d964b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9f4b718bb2a1da57f1be1807af772f') in 0.047404 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/CyberCity/Mesh/dirty direct.FBX
+  artifactKey: Guid(e545dee6df10f43499fe6086b158d0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/dirty direct.FBX using Guid(e545dee6df10f43499fe6086b158d0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd03178cac2f985bcc49f0497772a289') in 0.062045 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.337755 seconds.
+  path: Assets/CyberCity/Mesh/cable mix G.FBX
+  artifactKey: Guid(5cd56158875543c4b82fa7735be177ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/cable mix G.FBX using Guid(5cd56158875543c4b82fa7735be177ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5ba84d95e72bc532b75a3bf88699fb') in 0.097537 seconds 
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/CyberCity/Mesh/box cap.FBX
+  artifactKey: Guid(6e272c5e64de0074580bac2a871e72c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/box cap.FBX using Guid(6e272c5e64de0074580bac2a871e72c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78d4fbe7d275822bb841983f5fe96db') in 0.071512 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/CyberCity/Mesh/cable mix E.FBX
+  artifactKey: Guid(6ef3174bdbe2bc445bf5eca3ce87ea0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/cable mix E.FBX using Guid(6ef3174bdbe2bc445bf5eca3ce87ea0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21397131fb41c91369532c3ffc2b0df') in 0.108896 seconds 
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/CyberCity/Mesh/car sedan.FBX
+  artifactKey: Guid(e30d4a0b68ca8484ca5e98a5b3f5a71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/car sedan.FBX using Guid(e30d4a0b68ca8484ca5e98a5b3f5a71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cd3476aadf16323955dc7762065ea3') in 0.449679 seconds 
+Number of asset objects unloaded after import = 117
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/CyberCity/Mesh/cable vert.FBX
+  artifactKey: Guid(35bc4f4411b332248bfb139c693fcad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/cable vert.FBX using Guid(35bc4f4411b332248bfb139c693fcad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569d561ec89cb6b914fcfe9d91d370ab') in 0.108608 seconds 
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000769 seconds.
+  path: Assets/CyberCity/Mesh/c tree.FBX
+  artifactKey: Guid(dc771738020f63143a9b9e61d615fcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/c tree.FBX using Guid(dc771738020f63143a9b9e61d615fcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8931d4752312e86b8031b4c8d240cac') in 0.033708 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CyberCity/Mesh/arc side.FBX
+  artifactKey: Guid(19f5f1e304669564086fda44a5911e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/arc side.FBX using Guid(19f5f1e304669564086fda44a5911e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff093ab3ce5d49a5dae4883312cefe8a') in 0.042021 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/CyberCity/Mesh/bottle A.FBX
+  artifactKey: Guid(9bb0bb79d192fae4baccc146693f2273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/bottle A.FBX using Guid(9bb0bb79d192fae4baccc146693f2273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563a4c64688ca40702b6b8e9c938f06c') in 0.040337 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CyberCity/Mesh/air pipe corn.FBX
+  artifactKey: Guid(af80e063bd79e3c4982baf4b327c268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/air pipe corn.FBX using Guid(af80e063bd79e3c4982baf4b327c268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da72a3e5e16b67cf91229a9a0cc42b8d') in 0.070486 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CyberCity/Mesh/bottle B.FBX
+  artifactKey: Guid(32c9fb6d4cfd15c43afee7040874fd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/bottle B.FBX using Guid(32c9fb6d4cfd15c43afee7040874fd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82731b6e90860bcbd7aefa35e8691c0') in 0.044612 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/CyberCity/Mesh/cable to side 1.FBX
+  artifactKey: Guid(469b18bddb00ac841873cf6f63dacfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/cable to side 1.FBX using Guid(469b18bddb00ac841873cf6f63dacfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d738eb0c6e3ebe05e52b1fbfa3341c1') in 0.104182 seconds 
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/CyberCity/Mesh/car sedan lod 2.FBX
+  artifactKey: Guid(dac4891f968c7b74bb406733a1a84fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/car sedan lod 2.FBX using Guid(dac4891f968c7b74bb406733a1a84fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94cac0d7c8114b3923198ee09e654aca') in 0.210459 seconds 
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/CyberCity/Mesh/cable mix F.FBX
+  artifactKey: Guid(46ce516e8fad09042b82ae2058508c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/cable mix F.FBX using Guid(46ce516e8fad09042b82ae2058508c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5f1687ad6aa210b8957f41dc1a646f') in 0.103758 seconds 
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/CyberCity/Mesh/cable mix B.FBX
+  artifactKey: Guid(5e0bf9674598e1f418f703041d156f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/cable mix B.FBX using Guid(5e0bf9674598e1f418f703041d156f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3aeb46fa96ccf0e84959943b7ffcc2a') in 0.101483 seconds 
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/CyberCity/Mesh/antenna 2.FBX
+  artifactKey: Guid(c8a28e86b701453408bb989b3bd118af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/antenna 2.FBX using Guid(c8a28e86b701453408bb989b3bd118af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837ad8e0ac8d5521038989faf1efef30') in 0.072846 seconds 
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.982022 seconds.
+  path: Assets/CyberCity/Mesh/garland street.FBX
+  artifactKey: Guid(be06c9104d1a56441ab753850df52c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/garland street.FBX using Guid(be06c9104d1a56441ab753850df52c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba41e02b0b851e13d33858bf7d5afbc3') in 0.032957 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CyberCity/Mesh/hydrant.FBX
+  artifactKey: Guid(794fb45011b87ae41be846891c59a363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/hydrant.FBX using Guid(794fb45011b87ae41be846891c59a363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8da31362065634e262c936d39bcb0b') in 0.066375 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/CyberCity/Mesh/hotdog stand.FBX
+  artifactKey: Guid(1d25738175a84304e93b63d8c25a12bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/hotdog stand.FBX using Guid(1d25738175a84304e93b63d8c25a12bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b66758839c997bb1ee9122ec62e0b4') in 0.318931 seconds 
+Number of asset objects unloaded after import = 81
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/CyberCity/Mesh/hand clock.FBX
+  artifactKey: Guid(fdd890f4e68eaa848a9078fdcebc7b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/hand clock.FBX using Guid(fdd890f4e68eaa848a9078fdcebc7b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a78d1b4c0e93f4310ed2d3baa94df6') in 0.072823 seconds 
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 1.020917 seconds.
+  path: Assets/CyberCity/Mesh/moon_plane.FBX
+  artifactKey: Guid(a5970617fbc68af49b3c841dddfa8de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/moon_plane.FBX using Guid(a5970617fbc68af49b3c841dddfa8de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d7a4fafea09677b9ed46cf4616dd06') in 0.024276 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CyberCity/Mesh/neon sign 05.FBX
+  artifactKey: Guid(7c91d5d0a06064e41a969a6e10589e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/neon sign 05.FBX using Guid(7c91d5d0a06064e41a969a6e10589e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630a1af0744bf8b28d8723292c415c5a') in 0.131701 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CyberCity/Mesh/neon sign 17.FBX
+  artifactKey: Guid(41706b72dbb6c5447afdfbec9c77a57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/neon sign 17.FBX using Guid(41706b72dbb6c5447afdfbec9c77a57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4e685e0b993b8611d46a5054db54b9') in 0.141644 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/CyberCity/Mesh/neon sign 02.FBX
+  artifactKey: Guid(8e86b6231c7d7184fa0b67a87d29558a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/neon sign 02.FBX using Guid(8e86b6231c7d7184fa0b67a87d29558a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431356eb8c98ab64e448338b22e002df') in 0.123791 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CyberCity/Mesh/neon sign 15.FBX
+  artifactKey: Guid(9a85a8986d609264285e67de44dffd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/neon sign 15.FBX using Guid(9a85a8986d609264285e67de44dffd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89c8a473454afa6a9b41fb1947899e1') in 0.119418 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CyberCity/Mesh/neon sign 11.FBX
+  artifactKey: Guid(7a7f0d48c5f8d804c86db22b98aa6f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/neon sign 11.FBX using Guid(7a7f0d48c5f8d804c86db22b98aa6f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd858c00701668e346daf2a1cda063336') in 0.134563 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/CyberCity/Mesh/neon sign 06.FBX
+  artifactKey: Guid(3caa9c47171cf3945a4ef85649be5f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/neon sign 06.FBX using Guid(3caa9c47171cf3945a4ef85649be5f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090c7d96d97006e704bd5629a144758e') in 0.121541 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000758 seconds.
+  path: Assets/CyberCity/Mesh/neon sign 12.FBX
+  artifactKey: Guid(d604945ef7c9f424e8ff267136c73853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/neon sign 12.FBX using Guid(d604945ef7c9f424e8ff267136c73853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1debd8a916258b09470338c0c5cc82') in 0.128142 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CyberCity/Mesh/neon sign 07.FBX
+  artifactKey: Guid(7c0a910c221fdd54db59af3283f3b50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/neon sign 07.FBX using Guid(7c0a910c221fdd54db59af3283f3b50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc463fbc12bb2d474cfac89e7103683') in 0.124855 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/CyberCity/Mesh/neon sign 20.FBX
+  artifactKey: Guid(f80371f26c19ff34eb39595bb0893b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/neon sign 20.FBX using Guid(f80371f26c19ff34eb39595bb0893b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ce4289bef70c6ab05c79511523a8e4') in 0.127352 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CyberCity/Mesh/neon sign 14.FBX
+  artifactKey: Guid(1153d0d3e855aa941a49ed9ae08c2880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/neon sign 14.FBX using Guid(1153d0d3e855aa941a49ed9ae08c2880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a08d23c64f5659cf4d050f0df71ec5') in 0.134715 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.096224 seconds.
+  path: Assets/CyberCity/Mesh/neon sign 22.FBX
+  artifactKey: Guid(74c2f22c0d2a6d34a841bca8b8825e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/neon sign 22.FBX using Guid(74c2f22c0d2a6d34a841bca8b8825e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829d252f8f093edf916a3868598ecfca') in 0.146980 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/CyberCity/Mesh/paper 1.FBX
+  artifactKey: Guid(d4a0935805e65ab479cae8408a166d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/paper 1.FBX using Guid(d4a0935805e65ab479cae8408a166d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72866144c74bef8355c33c4b22fd9220') in 0.040909 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/CyberCity/Mesh/neon sign 27.FBX
+  artifactKey: Guid(ab9cdaa439a04e342b8a7cf7d595a21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/neon sign 27.FBX using Guid(ab9cdaa439a04e342b8a7cf7d595a21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb3d6afc7b428ce62bc5fe06d68128e') in 0.121232 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/CyberCity/Mesh/neon sign 25.FBX
+  artifactKey: Guid(ee2fd72f9d026e84b86940f83c2133d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/neon sign 25.FBX using Guid(ee2fd72f9d026e84b86940f83c2133d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3695051729bce9a80473cc415898b1') in 0.119336 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CyberCity/Mesh/pipe corn sm 2.FBX
+  artifactKey: Guid(269cd609594fa0a4dbdedeaad395c145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/pipe corn sm 2.FBX using Guid(269cd609594fa0a4dbdedeaad395c145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5607ab24cf6feab14b4216490325194d') in 0.067664 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/CyberCity/Mesh/pipe.FBX
+  artifactKey: Guid(0bab7262e04589e449d8b5d8edaedfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/pipe.FBX using Guid(0bab7262e04589e449d8b5d8edaedfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6654a92d229bdd4d19526415111f5fae') in 0.063854 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/CyberCity/Mesh/paper 3.FBX
+  artifactKey: Guid(e05b10c7442f88b45abfb2a120c17411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/paper 3.FBX using Guid(e05b10c7442f88b45abfb2a120c17411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d43ba2f4de14c951f4c70cbeb7e098') in 0.037290 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/CyberCity/Mesh/neon sign 26.FBX
+  artifactKey: Guid(c7f78fa68bafbad41ad4b273ac3cb105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/neon sign 26.FBX using Guid(c7f78fa68bafbad41ad4b273ac3cb105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26afc0c0d881b015fe5277d21c261ffe') in 0.128674 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/CyberCity/Mesh/neon sign 24.FBX
+  artifactKey: Guid(fa1e5aeb09889cd46839e2214651ac4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/neon sign 24.FBX using Guid(fa1e5aeb09889cd46839e2214651ac4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5330fd41dc1be7aec5c249c158c97a9') in 0.124462 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/CyberCity/Mesh/pipe half.FBX
+  artifactKey: Guid(7e8f319cd47d84e4f8918b2207e4a9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/pipe half.FBX using Guid(7e8f319cd47d84e4f8918b2207e4a9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6de38d2dca84ed8940a5bccd9ba31db') in 0.061771 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CyberCity/Mesh/paper 4 crump.FBX
+  artifactKey: Guid(9ca368b51c4806645ae722003f71a3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/paper 4 crump.FBX using Guid(9ca368b51c4806645ae722003f71a3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe8a42d7c1a39e240054ad041a34334') in 0.067633 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/CyberCity/Mesh/pipe hldr prt.FBX
+  artifactKey: Guid(e50a6fc43a44fad4aa8e781e90aeb812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/pipe hldr prt.FBX using Guid(e50a6fc43a44fad4aa8e781e90aeb812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788fcd6b85fb6812d8ca089484936165') in 0.064606 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/CyberCity/Mesh/pipe sm half.FBX
+  artifactKey: Guid(df17de6065d7719488b213bc2809609d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/pipe sm half.FBX using Guid(df17de6065d7719488b213bc2809609d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec3df51cb465ad49d482327506dee17') in 0.072805 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/CyberCity/Mesh/plate 1.FBX
+  artifactKey: Guid(15e9668d7fc7242428ffd144f89799fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/plate 1.FBX using Guid(15e9668d7fc7242428ffd144f89799fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7fcc569ac1dd3aa16bc4e17ccd0dbb') in 0.081373 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/CyberCity/Mesh/plate 2.FBX
+  artifactKey: Guid(eb95346509a175d4d9f0605b55b28931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/plate 2.FBX using Guid(eb95346509a175d4d9f0605b55b28931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8023861098bb9d4b36b5dcc44267dcd') in 0.068548 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CyberCity/Mesh/plate 05.FBX
+  artifactKey: Guid(f2fef8d0122fa6d43b578db36ae51517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/plate 05.FBX using Guid(f2fef8d0122fa6d43b578db36ae51517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f0c333ad928e736c8e8992b72e2e07') in 0.072092 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.244823 seconds.
+  path: Assets/CyberCity/Mesh/pole.FBX
+  artifactKey: Guid(dcd04aa69deedfa4dbec4582d7bf5ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/pole.FBX using Guid(dcd04aa69deedfa4dbec4582d7bf5ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49cf71f23dae943cc240f21978a8ca87') in 0.085952 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/CyberCity/Mesh/poster 08.FBX
+  artifactKey: Guid(b7e481de88b878a4fb46b6960661311b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/poster 08.FBX using Guid(b7e481de88b878a4fb46b6960661311b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9803ac16479fdbeafb63a1157d26237') in 0.204034 seconds 
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/CyberCity/Mesh/poster 05.FBX
+  artifactKey: Guid(8b7e4b5a38c1df94ba4a063b28485e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/poster 05.FBX using Guid(8b7e4b5a38c1df94ba4a063b28485e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8fd5f6a8acd8cd833a9fd9a8726d23c') in 0.161352 seconds 
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/CyberCity/Mesh/poster 06.FBX
+  artifactKey: Guid(7737b053388e93045bd1b5643a72c95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/poster 06.FBX using Guid(7737b053388e93045bd1b5643a72c95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa657efc93f9857abb4e4fc3ec597f2a') in 0.174634 seconds 
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/CyberCity/Mesh/poster 07.FBX
+  artifactKey: Guid(01b6f88bc54801f4a9dc80f4643159f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/poster 07.FBX using Guid(01b6f88bc54801f4a9dc80f4643159f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259537feb445b7d72ac2a7b3f248a0bb') in 0.155671 seconds 
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/CyberCity/Mesh/poster 12.FBX
+  artifactKey: Guid(565a7ed27b8deb24ea076cb61ade96bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/poster 12.FBX using Guid(565a7ed27b8deb24ea076cb61ade96bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8558de11cea40a42a1e80d3242d9d12b') in 0.172772 seconds 
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/CyberCity/Mesh/poster 09.FBX
+  artifactKey: Guid(e7029c48efc9ede4897e79698c2a65e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/poster 09.FBX using Guid(e7029c48efc9ede4897e79698c2a65e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceef5c4fb4209b59531b6b0848da720e') in 0.165580 seconds 
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/CyberCity/Mesh/road prop 11.FBX
+  artifactKey: Guid(d987227265f6bd0439a64f60fda283fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/road prop 11.FBX using Guid(d987227265f6bd0439a64f60fda283fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5427a42c5c360337b6e31ffd44e276') in 0.070036 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/CyberCity/Mesh/road prop 07.FBX
+  artifactKey: Guid(a72177309d056234c845dbbc92ca72ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/road prop 07.FBX using Guid(a72177309d056234c845dbbc92ca72ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60854ea635d705dd37a309c6c0bd9121') in 0.078719 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CyberCity/Mesh/road prop 16.FBX
+  artifactKey: Guid(20489ec5d02a5714d8a03efa7aa6a8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/road prop 16.FBX using Guid(20489ec5d02a5714d8a03efa7aa6a8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4bf8871e460a14b6e978f143f96a06') in 0.093931 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/CyberCity/Mesh/road prop 12.FBX
+  artifactKey: Guid(d24510cc01cfb0a46837226ea3ab53fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/road prop 12.FBX using Guid(d24510cc01cfb0a46837226ea3ab53fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3002b2dc970bb53169c574e7a5fd0058') in 0.073174 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/CyberCity/Mesh/road prop 17.FBX
+  artifactKey: Guid(af2e57fe6b738f6408615899961320c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/road prop 17.FBX using Guid(af2e57fe6b738f6408615899961320c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1419d3ed42066906296de34e59ce7e4f') in 0.064620 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/CyberCity/Mesh/road prop 15.FBX
+  artifactKey: Guid(7115e915f80f9c244811f32ad1f0d760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/road prop 15.FBX using Guid(7115e915f80f9c244811f32ad1f0d760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc7b622f715b938510f88358c867c51') in 0.063476 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/CyberCity/Mesh/road prop 01.FBX
+  artifactKey: Guid(7f18d57ec8506014f9b772cc1c240a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/road prop 01.FBX using Guid(7f18d57ec8506014f9b772cc1c240a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1acc1b2f06df9d9c0abeec5bb7937af') in 0.080847 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CyberCity/Mesh/poster 10.FBX
+  artifactKey: Guid(70c8f25795adb8f408f6d5f940316997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/poster 10.FBX using Guid(70c8f25795adb8f408f6d5f940316997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808591e07d1794335f895df523aaeac8') in 0.188166 seconds 
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/CyberCity/Mesh/road prop 19.FBX
+  artifactKey: Guid(e6008d97872644d4a9dac8637a23c6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/road prop 19.FBX using Guid(e6008d97872644d4a9dac8637a23c6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a3e26befac9a1be6204c37db2bc090') in 0.060647 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/CyberCity/Mesh/robotz3.FBX
+  artifactKey: Guid(592eab7a882729b4f8e90f694ba62f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/robotz3.FBX using Guid(592eab7a882729b4f8e90f694ba62f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c045e2b5e39c00b878c7b4fb7f430b6') in 0.172793 seconds 
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/CyberCity/Mesh/rope 2.FBX
+  artifactKey: Guid(138e407a74407934aaf9fff90cb8158d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/rope 2.FBX using Guid(138e407a74407934aaf9fff90cb8158d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c6b178d39c30fb8faadb9ba44e59be') in 0.069791 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CyberCity/Mesh/rope 1.FBX
+  artifactKey: Guid(56efff1009c725849aef1e6d98634be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/rope 1.FBX using Guid(56efff1009c725849aef1e6d98634be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcd0c5a72f84e64bd9cc730f918171f') in 0.059252 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/CyberCity/Mesh/shop poster 5.FBX
+  artifactKey: Guid(4e5e051f899601a4493a8e909b7dd09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/shop poster 5.FBX using Guid(4e5e051f899601a4493a8e909b7dd09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c084562bdf51a2fa73b3230b0f1cce') in 0.036240 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/CyberCity/Mesh/shop poster 13.FBX
+  artifactKey: Guid(5cd4d12379edba44abe1c20dd0917ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/shop poster 13.FBX using Guid(5cd4d12379edba44abe1c20dd0917ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29699129bc3b7db80994984ed16075eb') in 0.039108 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CyberCity/Mesh/shop poster 8.FBX
+  artifactKey: Guid(1be959ed3b6047c449e925330d8a2007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/shop poster 8.FBX using Guid(1be959ed3b6047c449e925330d8a2007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e428b5540d30bf032edfcc428a3537b') in 0.037734 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CyberCity/Mesh/shop poster 9.FBX
+  artifactKey: Guid(2a9b07b49b0b8da42835880f74eb38ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/shop poster 9.FBX using Guid(2a9b07b49b0b8da42835880f74eb38ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c57554470a317f83fbc0cc1106ed9fa') in 0.038291 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CyberCity/Mesh/shop poster 18.FBX
+  artifactKey: Guid(cb55ae1aebcf26c4e9b9608327b72d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/shop poster 18.FBX using Guid(cb55ae1aebcf26c4e9b9608327b72d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ff259cd35c61c06a2b4106dcbb23ef') in 0.046902 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CyberCity/Mesh/room box.FBX
+  artifactKey: Guid(23912b668ac99a143ae30df7753f3160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/room box.FBX using Guid(23912b668ac99a143ae30df7753f3160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c7c87fccf5202a07d2aa6f62130fc4') in 0.093567 seconds 
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/CyberCity/Mesh/shop poster 19.FBX
+  artifactKey: Guid(83799a8ffe76aaf49baba51493cdbd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/shop poster 19.FBX using Guid(83799a8ffe76aaf49baba51493cdbd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6005d6499f89483ddb45253c17458553') in 0.039813 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/CyberCity/Mesh/road prop 22.FBX
+  artifactKey: Guid(325dadfbf1763b4459a6c524048d6fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/road prop 22.FBX using Guid(325dadfbf1763b4459a6c524048d6fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9236b5a828be845b6631ee895ecd38e7') in 0.066095 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CyberCity/Mesh/sewer 1.FBX
+  artifactKey: Guid(fc63924ca901d4e43a81bc5f9d3225ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/sewer 1.FBX using Guid(fc63924ca901d4e43a81bc5f9d3225ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7505d2bfaa0bcb575f2cade3bb5d1c90') in 0.093545 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.001609 seconds.
+  path: Assets/CyberCity/Mesh/robotz3 demoanimat 2.FBX
+  artifactKey: Guid(e9e1f64f12076f4468e708f2f9aa3ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/robotz3 demoanimat 2.FBX using Guid(e9e1f64f12076f4468e708f2f9aa3ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469d0cdb29c2918393df529b9943df9b') in 0.110368 seconds 
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CyberCity/Mesh/shop poster 17.FBX
+  artifactKey: Guid(26e7d6ab1727fd24d9f6f038fb9eebaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/shop poster 17.FBX using Guid(26e7d6ab1727fd24d9f6f038fb9eebaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb1d01adba687f3e3e97ffd60194779') in 0.036138 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.001046 seconds.
+  path: Assets/CyberCity/Mesh/room box bow.FBX
+  artifactKey: Guid(bf1afd018476dcf47be1610342412c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/room box bow.FBX using Guid(bf1afd018476dcf47be1610342412c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b8c63050ed3ba389e96c908eda1224') in 0.100895 seconds 
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CyberCity/Mesh/sewer 2.FBX
+  artifactKey: Guid(8fe68453a06370e45b4630a184302a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/sewer 2.FBX using Guid(8fe68453a06370e45b4630a184302a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec922bacf3bb65bc37d0ec9c6b40312c') in 0.070659 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/CyberCity/Mesh/sewer 3.FBX
+  artifactKey: Guid(31dac843428b0894e8408792d472ccd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/sewer 3.FBX using Guid(31dac843428b0894e8408792d472ccd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4294aba20f7b0026f8e1e38b01fec774') in 0.076570 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/CyberCity/Mesh/shop poster 3.FBX
+  artifactKey: Guid(2fd5a067c3f6ce1489225705975a85b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/shop poster 3.FBX using Guid(2fd5a067c3f6ce1489225705975a85b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71985ab39727b1d209ae00345115f95') in 0.042610 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CyberCity/Mesh/road prop 25.FBX
+  artifactKey: Guid(7844fcccc051200418804f249ae56a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/road prop 25.FBX using Guid(7844fcccc051200418804f249ae56a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741b99faf0f970fa557009781885ad4b') in 0.067089 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.485197 seconds.
+  path: Assets/CyberCity/Mesh/shop poster 20.FBX
+  artifactKey: Guid(360e56670baaad14f8fde130df5e42fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/shop poster 20.FBX using Guid(360e56670baaad14f8fde130df5e42fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0880b54e4c2d3fe5d4e7026cf734a894') in 0.027271 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/CyberCity/Mesh/sidewalk corn B.FBX
+  artifactKey: Guid(ff28978a33784fe4e9c106aa5721b80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/sidewalk corn B.FBX using Guid(ff28978a33784fe4e9c106aa5721b80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4c79e75059b67123d3775b8a37c744') in 0.086655 seconds 
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CyberCity/Mesh/sidewalk corn A.FBX
+  artifactKey: Guid(84934918ffa72f94db3e7e5daaefc085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/sidewalk corn A.FBX using Guid(84934918ffa72f94db3e7e5daaefc085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88fd07caaa4b3d23dd7a9ee9264efda') in 0.096494 seconds 
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CyberCity/Mesh/shopexterior.FBX
+  artifactKey: Guid(3d4e5ddc913c68642817b53e44a6fa4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/shopexterior.FBX using Guid(3d4e5ddc913c68642817b53e44a6fa4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905904acfaf0b61f0c1f4680dcc5c958') in 0.576575 seconds 
+Number of asset objects unloaded after import = 118
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/CyberCity/Mesh/street end C.FBX
+  artifactKey: Guid(1442c6814fdb2974d86407ba1b16085e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/street end C.FBX using Guid(1442c6814fdb2974d86407ba1b16085e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c588d064eb2157d421612049f8fd1ca4') in 0.129259 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/CyberCity/Mesh/streetwindow 3.FBX
+  artifactKey: Guid(41467368a552d1545b4bb76171c3b934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/streetwindow 3.FBX using Guid(41467368a552d1545b4bb76171c3b934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7bed708067c0b33a6388ba02577ced') in 0.233515 seconds 
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CyberCity/Mesh/streetdoor 3.FBX
+  artifactKey: Guid(ced3bdad2fd4d9b4cb5dfeae408d24c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/streetdoor 3.FBX using Guid(ced3bdad2fd4d9b4cb5dfeae408d24c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1bbfa04c3678d004eb7c72b653a5329') in 0.161141 seconds 
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/CyberCity/Mesh/wall window 5.FBX
+  artifactKey: Guid(1b353de9a3d97e74b97754fdd18d438b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/wall window 5.FBX using Guid(1b353de9a3d97e74b97754fdd18d438b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5eba1135e1771ee5b65506bb3537fc5') in 0.109121 seconds 
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CyberCity/Mesh/wineglass.FBX
+  artifactKey: Guid(2f3ebf8436f88b144b258368a814733f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/wineglass.FBX using Guid(2f3ebf8436f88b144b258368a814733f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e2f53007967975cd85c565faf68ad2') in 0.044025 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CyberCity/Mesh/sidewalk dir D.FBX
+  artifactKey: Guid(bbbc72f2f745fc247b8d5611d44bd619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/sidewalk dir D.FBX using Guid(bbbc72f2f745fc247b8d5611d44bd619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61a0c3ace8bb1f96dc30b2064aecfb5') in 0.088962 seconds 
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/CyberCity/Mesh/street end B.FBX
+  artifactKey: Guid(87a61ecdc1d161642a103c8899ec4fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/street end B.FBX using Guid(87a61ecdc1d161642a103c8899ec4fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed42987cb4f361535c5ed8a99b38c72') in 0.152677 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/CyberCity/Mesh/street dir D.FBX
+  artifactKey: Guid(05db6bd4818ecf945ac1eee1de348041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/street dir D.FBX using Guid(05db6bd4818ecf945ac1eee1de348041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb67d01d19c62086361c6c9c7113fac4') in 0.073691 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CyberCity/Mesh/streetwindow 2.FBX
+  artifactKey: Guid(79bfa92314a1d32478308c826162fe76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/streetwindow 2.FBX using Guid(79bfa92314a1d32478308c826162fe76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5144a55d6b8dc3699760249659af8572') in 0.224476 seconds 
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/CyberCity/Mesh/wall window 5b.FBX
+  artifactKey: Guid(192d9f0cf33fedd4e9a5ec8955474ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/wall window 5b.FBX using Guid(192d9f0cf33fedd4e9a5ec8955474ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219bc0a2d32d92c635731b2ab1249e0c') in 0.082215 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/CyberCity/Mesh/shopexterior no door.FBX
+  artifactKey: Guid(43569b11b5dccb04db125ec6ef6c9411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/shopexterior no door.FBX using Guid(43569b11b5dccb04db125ec6ef6c9411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba872b44415782a2230526261564912') in 0.548827 seconds 
+Number of asset objects unloaded after import = 102
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/CyberCity/Mesh/street corn in C.FBX
+  artifactKey: Guid(fb1cdc7295676b44185260f9d829bc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/street corn in C.FBX using Guid(fb1cdc7295676b44185260f9d829bc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f84cd4f9174b72ab15f33c41e67124') in 0.167249 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/CyberCity/Mesh/sidewalk dir B.FBX
+  artifactKey: Guid(7d30abaa8ec4ca14888383e105b496bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/sidewalk dir B.FBX using Guid(7d30abaa8ec4ca14888383e105b496bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c4f82d7eee138c087630dc8352d379') in 0.094090 seconds 
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/CyberCity/Mesh/wall window classic 3.FBX
+  artifactKey: Guid(3a758d283a4d60c45bf6cdb2c4c6d372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/wall window classic 3.FBX using Guid(3a758d283a4d60c45bf6cdb2c4c6d372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0828ee0c00b8ed2d206e3f97b17941f3') in 0.110679 seconds 
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/CyberCity/Mesh/trash bin 1.FBX
+  artifactKey: Guid(114d2ba9a80d1ac47838ed8fe3898847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/trash bin 1.FBX using Guid(114d2ba9a80d1ac47838ed8fe3898847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254ca002e221f97e18be94f4027e9fba') in 0.072943 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/CyberCity/Mesh/wall window 2.FBX
+  artifactKey: Guid(0c552cb091fa376428e56ff095aac3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/wall window 2.FBX using Guid(0c552cb091fa376428e56ff095aac3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca1dffe55103ccd3093a46d8fc8bcf4') in 0.104164 seconds 
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/CyberCity/Mesh/wall a 1 05.FBX
+  artifactKey: Guid(2667bf349838c424d86448706fc9f6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/wall a 1 05.FBX using Guid(2667bf349838c424d86448706fc9f6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b642eb6e47c4b8303dbcc7414ea006') in 0.063884 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/CyberCity/Mesh/streetdoor 1.FBX
+  artifactKey: Guid(67ef3aad8673b634ebdddd72e6c7f0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/streetdoor 1.FBX using Guid(67ef3aad8673b634ebdddd72e6c7f0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca353db27d578b2ad2ba98bd8707b6d4') in 0.260856 seconds 
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/CyberCity/Mesh/street corn in A.FBX
+  artifactKey: Guid(8c42718912c9f1e44856f9bf180231fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/street corn in A.FBX using Guid(8c42718912c9f1e44856f9bf180231fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed0aff2c375593d91f9f842417ed30e') in 0.170146 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/CyberCity/Mesh/street dir A.FBX
+  artifactKey: Guid(5444b10ca90f45441a037c78fc6f9551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/street dir A.FBX using Guid(5444b10ca90f45441a037c78fc6f9551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3f5b546609dbd1c7df9b7bd68e8b31') in 0.074437 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CyberCity/Mesh/streetwindow 1.FBX
+  artifactKey: Guid(afa6d5b088de9f843a71c5179905e102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/streetwindow 1.FBX using Guid(afa6d5b088de9f843a71c5179905e102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86f5fa423ceddad2db13c47aaa1d686') in 0.217212 seconds 
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/CyberCity/Mesh/wall window 3.FBX
+  artifactKey: Guid(ec86937eecab721498e0b37a0fb331b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/wall window 3.FBX using Guid(ec86937eecab721498e0b37a0fb331b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c26e0aca66ec4377ddf460ca7bf0f8b') in 0.113920 seconds 
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/CyberCity/Mesh/tv 2.FBX
+  artifactKey: Guid(0ef68b1403a50f74799f7daa2c95473e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/tv 2.FBX using Guid(0ef68b1403a50f74799f7daa2c95473e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd2d305c7693ede458157a957206800') in 0.075523 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CyberCity/Mesh/sidewalk corn C.FBX
+  artifactKey: Guid(a66b305f14146b44a974e1111ddebe22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/sidewalk corn C.FBX using Guid(a66b305f14146b44a974e1111ddebe22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7453d0296c508054a81dc63df023b7') in 0.096805 seconds 
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CyberCity/Mesh/shop poster 22.FBX
+  artifactKey: Guid(4c832cf2b40aa1f458ab8d9705869a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/shop poster 22.FBX using Guid(4c832cf2b40aa1f458ab8d9705869a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc8ee7c17062bb15d868c58b5083d4d') in 0.040069 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CyberCity/Mesh/streetdoor single.FBX
+  artifactKey: Guid(ddc2162110f1921458579aed2078e261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/streetdoor single.FBX using Guid(ddc2162110f1921458579aed2078e261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6a3c882b960f0e8dd2a751e7905089') in 0.120673 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/CyberCity/Mesh/streetgate 1.FBX
+  artifactKey: Guid(36135cdefb285674c8555febf01de2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/streetgate 1.FBX using Guid(36135cdefb285674c8555febf01de2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed760d732b91971c673528d6bad650f0') in 0.149246 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/CyberCity/Prefab/steam.prefab
+  artifactKey: Guid(d05aaeaa41d1a68449ffa8f47ed6db6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Prefab/steam.prefab using Guid(d05aaeaa41d1a68449ffa8f47ed6db6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5072047b7282b77f03d8cd988870b374') in 0.134596 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/CyberCity/Prefab/room box.prefab
+  artifactKey: Guid(fc290bbc85844664d8b4a27123ed47bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Prefab/room box.prefab using Guid(fc290bbc85844664d8b4a27123ed47bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4334038a094b2a0aeee2efeaa58807') in 0.062634 seconds 
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/CyberCity/Mesh/sidewalk dir C.FBX
+  artifactKey: Guid(363d9bff5d9222541a881ccef2ce612e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Mesh/sidewalk dir C.FBX using Guid(363d9bff5d9222541a881ccef2ce612e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cf87108bc6a52bbfda3e117b93232a') in 0.114384 seconds 
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.674403 seconds.
+  path: Assets/CyberCity/Script/Player.prefab
+  artifactKey: Guid(9e41dd70480eee1448cf4b220d51e16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Script/Player.prefab using Guid(9e41dd70480eee1448cf4b220d51e16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd773d1b445c175cf3f12cc6427cfd798') in 0.105344 seconds 
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 2.625529 seconds.
+  path: Assets/CyberCity/Textures/antenna_Albedo.tga
+  artifactKey: Guid(051812927ba3b8a4d900c18503dadb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/antenna_Albedo.tga using Guid(051812927ba3b8a4d900c18503dadb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a099f1d1d30c16dddce2f98dd0509fe4') in 0.027028 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/CyberCity/Textures/Asphalt 1 B S.tga
+  artifactKey: Guid(00b47d98d04213b4da878c09732d6995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/Asphalt 1 B S.tga using Guid(00b47d98d04213b4da878c09732d6995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347140f728bef04b6dfd9bf26747dc98') in 0.024008 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/CyberCity/Textures/Asphalt 2.png
+  artifactKey: Guid(444e39d0adaec4c4487e8584cd97c976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/Asphalt 2.png using Guid(444e39d0adaec4c4487e8584cd97c976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b047fb6c66b31cb82da77a6c458cb7') in 0.031364 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CyberCity/Textures/Concrete 3.png
+  artifactKey: Guid(37890194106b09849ac0bdc46dc62301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/Concrete 3.png using Guid(37890194106b09849ac0bdc46dc62301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3434f12fb2dca7af969db7cdc1ea9c') in 0.023740 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CyberCity/Textures/cable_Specular.tga
+  artifactKey: Guid(2149b5e5761028e48b3661fbc8de7a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/cable_Specular.tga using Guid(2149b5e5761028e48b3661fbc8de7a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6726ee8a28f045c106066a5fd3b1913') in 0.029088 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/CyberCity/Textures/Concrete 1 S.tga
+  artifactKey: Guid(b293f02657048644e842cbc749e8cbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/Concrete 1 S.tga using Guid(b293f02657048644e842cbc749e8cbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41fbfd6fc6c0e083ed30a08f8859ea3') in 0.032547 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CyberCity/Textures/Asphalt 2 H.png
+  artifactKey: Guid(bbe8e5e68e5d4f64382e80d668fa79f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/Asphalt 2 H.png using Guid(bbe8e5e68e5d4f64382e80d668fa79f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee51d4f597d391047b07fd535d281e6') in 0.029803 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CyberCity/Textures/antenna_NormalMap.png
+  artifactKey: Guid(79057886a82727f4b92ce536d7bc8a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/antenna_NormalMap.png using Guid(79057886a82727f4b92ce536d7bc8a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e60c8178b3f28efe33f134252a4e564') in 0.036519 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/CyberCity/Textures/cable_Albedo.tga
+  artifactKey: Guid(e6f08992972f9e14d81e3aca9fcd3a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/cable_Albedo.tga using Guid(e6f08992972f9e14d81e3aca9fcd3a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90504eeebbb5cb175e9257e51a412d0c') in 0.024735 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/CyberCity/Textures/Asphalt 1 B H.png
+  artifactKey: Guid(74eb390599095064593614e0e75e533e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/Asphalt 1 B H.png using Guid(74eb390599095064593614e0e75e533e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0556cd8b50878919a9b794373595685e') in 0.025328 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/CyberCity/Textures/Concrete 5 N.png
+  artifactKey: Guid(d55be696521f6d34c85b6ad41f99adb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/Concrete 5 N.png using Guid(d55be696521f6d34c85b6ad41f99adb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7b122392e22b08ad758d1856958b0a') in 0.026467 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CyberCity/Textures/Asphalt 2 B S.tga
+  artifactKey: Guid(7222f8e36c662484fb712a6042eec39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/Asphalt 2 B S.tga using Guid(7222f8e36c662484fb712a6042eec39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc351e4df47bb63e732c31524b87cf0') in 0.031904 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CyberCity/Textures/cable_NormalMap.png
+  artifactKey: Guid(c132494533fadb84c99e26b596dfd289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/cable_NormalMap.png using Guid(c132494533fadb84c99e26b596dfd289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5eccffacbaa6a2c0651f6cb435f070') in 0.028864 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000583 seconds.
+  path: Assets/CyberCity/Textures/Asphalt 1 B.png
+  artifactKey: Guid(bc8376c6e37b32a499987d9984d94655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/Asphalt 1 B.png using Guid(bc8376c6e37b32a499987d9984d94655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10cea41d25377b3a362be966e474252e') in 0.033973 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/CyberCity/Textures/Concrete 3 S.tga
+  artifactKey: Guid(f22f77af16da10749b94f50947df28c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/Concrete 3 S.tga using Guid(f22f77af16da10749b94f50947df28c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5d0f3a1634ec0ab52ef0b55f377b99') in 0.021616 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/CyberCity/Textures/Asphalt 2 N.png
+  artifactKey: Guid(c540ce77d2f0179439753d910a0171c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/Asphalt 2 N.png using Guid(c540ce77d2f0179439753d910a0171c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bba1d65c2fc8660e0f7d4e93b89fb0') in 0.034602 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CyberCity/Textures/Asphalt 2 cross a.png
+  artifactKey: Guid(03984e36faa72b245874084d0a9cb3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/Asphalt 2 cross a.png using Guid(03984e36faa72b245874084d0a9cb3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef86ea8bec3b046f72e2a52bfb8cba8e') in 0.026123 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.286744 seconds.
+  path: Assets/CyberCity/Textures/Concrete 5 S.tga
+  artifactKey: Guid(ad3229cf372892042a9b08dd38971f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/Concrete 5 S.tga using Guid(ad3229cf372892042a9b08dd38971f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f455fb52b4288ea63b084dbe2cf17be') in 0.018431 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CyberCity/Textures/Concrete 6 S.tga
+  artifactKey: Guid(d173069f4cba9ea48b286916fa807392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/Concrete 6 S.tga using Guid(d173069f4cba9ea48b286916fa807392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360ee7b088bf0f95631fc989006be385') in 0.026993 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CyberCity/Textures/Concrete 9.png
+  artifactKey: Guid(93140050f01dc544a826a58bd6483b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/Concrete 9.png using Guid(93140050f01dc544a826a58bd6483b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40be5fed228e91f87f2482f84f07c53') in 0.025290 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CyberCity/Textures/Concrete 8.png
+  artifactKey: Guid(4806be9d5e964bf419fd5272725a574f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/Concrete 8.png using Guid(4806be9d5e964bf419fd5272725a574f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce6bbc37226426473e664fbd0384e03') in 0.029906 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CyberCity/Textures/DistBuild_em.png
+  artifactKey: Guid(df67cde80fae6034a8cfdf60dc9f9181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/DistBuild_em.png using Guid(df67cde80fae6034a8cfdf60dc9f9181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a7d17b3b758c911689f1ddbbe258f2') in 0.030682 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CyberCity/Textures/Concrete 10 c S.tga
+  artifactKey: Guid(0ff701d55af255e46b379b11d7bd326b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/Concrete 10 c S.tga using Guid(0ff701d55af255e46b379b11d7bd326b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a8317ec65300c864396d74fb55b68d') in 0.026583 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/CyberCity/Textures/Concrete 10 c H.png
+  artifactKey: Guid(b911986d90b166f439d44f58e91f2cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/Concrete 10 c H.png using Guid(b911986d90b166f439d44f58e91f2cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6deeda9837b50e0a91e825ed631f0ebd') in 0.030408 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/CyberCity/Textures/detail2_Emission.png
+  artifactKey: Guid(cafaa62c6ef14f2458095a24a51bf155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/detail2_Emission.png using Guid(cafaa62c6ef14f2458095a24a51bf155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee405a104c420f7a66225b7ef62a00a') in 0.027990 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CyberCity/Textures/Concrete 10 c.png
+  artifactKey: Guid(1ca6e30ecc638ea4db63452aa3ef3bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/Concrete 10 c.png using Guid(1ca6e30ecc638ea4db63452aa3ef3bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6700982e7de5a24fe7552b7aaad5bba5') in 0.025151 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/CyberCity/Textures/DistBuild_s.tga
+  artifactKey: Guid(f7d9deffdd0df894caa2a1cdf3d5bded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/DistBuild_s.tga using Guid(f7d9deffdd0df894caa2a1cdf3d5bded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dbd67b3e78799ba6e6144dcd64592b4') in 0.030032 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CyberCity/Textures/Concrete 9 N.png
+  artifactKey: Guid(84b74a4898a31664eb9f91f6eec15563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/Concrete 9 N.png using Guid(84b74a4898a31664eb9f91f6eec15563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9330d3fa8a471fd748e4dad3872810') in 0.034982 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CyberCity/Textures/dirty.psd
+  artifactKey: Guid(fab9f9671ef38584bb4eaad6feac46bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/dirty.psd using Guid(fab9f9671ef38584bb4eaad6feac46bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0863e3feb2395700633123ac828f8a42') in 0.041565 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/CyberCity/Textures/Concrete 8 N.png
+  artifactKey: Guid(17adc5c45a1b54f46b7757918bce3022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/Concrete 8 N.png using Guid(17adc5c45a1b54f46b7757918bce3022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3477537e44c689fd53141ff4b8c359') in 0.039246 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/CyberCity/Textures/Concrete 7.png
+  artifactKey: Guid(25fa14c64b68cbd43b0c7ed8c2b2330c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/Concrete 7.png using Guid(25fa14c64b68cbd43b0c7ed8c2b2330c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970290572129e6c3564a42f8ae66e201') in 0.026802 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/CyberCity/Textures/Concrete 7 S.tga
+  artifactKey: Guid(0a70c1400fba5da47852ba75938558ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/Concrete 7 S.tga using Guid(0a70c1400fba5da47852ba75938558ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1bdcc6616512a45f35dbdedf3b5500') in 0.032498 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/CyberCity/Textures/detail2_Specular.tga
+  artifactKey: Guid(0b9e238c6a0923f4ea4d2d756e51bd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/detail2_Specular.tga using Guid(0b9e238c6a0923f4ea4d2d756e51bd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45d54d6467b30b6e7e21192507d856d') in 0.034877 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CyberCity/Textures/detail2_NormalMap.png
+  artifactKey: Guid(2f5d9851f26628740849ab22dfa80310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/detail2_NormalMap.png using Guid(2f5d9851f26628740849ab22dfa80310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5eeaec6d4e65a80fdbb901b1610306') in 0.029677 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.106075 seconds.
+  path: Assets/CyberCity/Textures/dpcar green_Albedo.tga
+  artifactKey: Guid(7766347a9f917854995524f28b28356d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/dpcar green_Albedo.tga using Guid(7766347a9f917854995524f28b28356d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2075f3b3925e0a37e75370838b4e9ed4') in 0.030545 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CyberCity/Textures/dpcar interB_Albedo.tga
+  artifactKey: Guid(8de727268c208d949a0a53fda42fcd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/dpcar interB_Albedo.tga using Guid(8de727268c208d949a0a53fda42fcd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b055a89b7ca519bf55e5bb3357ca61e4') in 0.033135 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/CyberCity/Textures/gate1_Albedo.tga
+  artifactKey: Guid(413922b293c011746a5fa39e6de13b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/gate1_Albedo.tga using Guid(413922b293c011746a5fa39e6de13b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec39b712cac077f73bdbd79f5f9ec1e') in 0.027733 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/CyberCity/Textures/gate4_Albedo.tga
+  artifactKey: Guid(19b320bceafbe354c939f5b8adcc4f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/gate4_Albedo.tga using Guid(19b320bceafbe354c939f5b8adcc4f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601710f3e5edf45a25863ee2fbe623cb') in 0.041902 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CyberCity/Textures/glasses_Albedo.tga
+  artifactKey: Guid(5e96bf8d32bac0b4fa7e74d97f55d95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/glasses_Albedo.tga using Guid(5e96bf8d32bac0b4fa7e74d97f55d95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7924af646a99ccb7906ae28242155955') in 0.046525 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CyberCity/Textures/dpcar interB_Specular.tga
+  artifactKey: Guid(fe9771f5d88d0b343b33da27c1c41fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/dpcar interB_Specular.tga using Guid(fe9771f5d88d0b343b33da27c1c41fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130b1865093a06adb633917b19300f89') in 0.044184 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/CyberCity/Textures/gate3_Specular.tga
+  artifactKey: Guid(fc93cdceab3af7b41bead31c173d8ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/gate3_Specular.tga using Guid(fc93cdceab3af7b41bead31c173d8ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9c618d2ba6b89b0d1ffdbb71c3f1af') in 0.045992 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/CyberCity/Textures/gate3_Albedo.tga
+  artifactKey: Guid(88cade97b5925f1478dbc2a5454b8a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/gate3_Albedo.tga using Guid(88cade97b5925f1478dbc2a5454b8a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ec4a17fadb6a337caf20c0fce468b6') in 0.058193 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CyberCity/Textures/dpcar inter_NormalMap.png
+  artifactKey: Guid(e5c7941a92c3ff44ea681371e178f61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/dpcar inter_NormalMap.png using Guid(e5c7941a92c3ff44ea681371e178f61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a92a00b203cf081e5973525aa5816eb5') in 0.031006 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CyberCity/Textures/glasses_EmitClas.png
+  artifactKey: Guid(7ee0cef0f8aaeff46ae4cfe326c331e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/glasses_EmitClas.png using Guid(7ee0cef0f8aaeff46ae4cfe326c331e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61917e535a8405319da9b1385aca0bf') in 0.046788 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CyberCity/Textures/hclock3_Albedo.tga
+  artifactKey: Guid(7a6d0b82802118f45a7c803d31e6dfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/hclock3_Albedo.tga using Guid(7a6d0b82802118f45a7c803d31e6dfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8139a99e1dff4aff3241271cebbea763') in 0.025336 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CyberCity/Textures/glasses_NormalMap.png
+  artifactKey: Guid(159dd8f46376d9947ad2b7e1180d43a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/glasses_NormalMap.png using Guid(159dd8f46376d9947ad2b7e1180d43a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa203067a4c4f53f144a80d1734617f4') in 0.036497 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/CyberCity/Textures/hclock1_Albedo.tga
+  artifactKey: Guid(c52010f179ec1384eb99aad9bcbd5727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/hclock1_Albedo.tga using Guid(c52010f179ec1384eb99aad9bcbd5727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c4a4d27d29d40414479e96d0ddba3f') in 0.023298 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/CyberCity/Textures/hotdog stand_Albedo.tga
+  artifactKey: Guid(bf14195ff24dbcf438346ffd9fda1fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/hotdog stand_Albedo.tga using Guid(bf14195ff24dbcf438346ffd9fda1fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba10d602331a1a86e64b51de06d52d5') in 0.031503 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/CyberCity/Textures/dpcar white_Specular.tga
+  artifactKey: Guid(93e22c1be21b6aa43b3c0a041751a962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/dpcar white_Specular.tga using Guid(93e22c1be21b6aa43b3c0a041751a962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd05a2e7e7efc97ecea72fff25d1dba8') in 0.037467 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CyberCity/Textures/hclock1_NormalMap.png
+  artifactKey: Guid(be2279431426321469f7c67bfc14f1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/hclock1_NormalMap.png using Guid(be2279431426321469f7c67bfc14f1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b02cdfe71d9c4e2fedae1e5945365ae') in 0.025796 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CyberCity/Textures/eat stand_NormalMap.png
+  artifactKey: Guid(251782e4b6d0840428a2c1bac0e0dbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/eat stand_NormalMap.png using Guid(251782e4b6d0840428a2c1bac0e0dbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1263402e08e77ddbb21be23962cdc7e5') in 0.035120 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CyberCity/Textures/gate2_Specular.tga
+  artifactKey: Guid(91cd8e78089f97b4185d153c344152ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/gate2_Specular.tga using Guid(91cd8e78089f97b4185d153c344152ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e35ae8298173392e3056b7dbac0a0f2') in 0.045292 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CyberCity/Textures/garbage n.png
+  artifactKey: Guid(37280a1ec648c9949b13b2b47d864119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/garbage n.png using Guid(37280a1ec648c9949b13b2b47d864119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af795c803dc0220a394bd62025b3a3fc') in 0.024768 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CyberCity/Textures/hclock2_Specular.tga
+  artifactKey: Guid(8de03c91f96b15a48b57187f567d5306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/hclock2_Specular.tga using Guid(8de03c91f96b15a48b57187f567d5306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373a821a33b1563f830199a76b38dc72') in 0.030655 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/CyberCity/Textures/gate4_Specular.tga
+  artifactKey: Guid(5dcbf98a76c9e7f4e8e243f29794fb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/gate4_Specular.tga using Guid(5dcbf98a76c9e7f4e8e243f29794fb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebdb9a4d18b7d350100b2dd06aa97c6') in 0.037417 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/CyberCity/Textures/dpcar inter_Specular.tga
+  artifactKey: Guid(1c72bbdfbe330344584ba52f0ccc7688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/dpcar inter_Specular.tga using Guid(1c72bbdfbe330344584ba52f0ccc7688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98d799fa3aeab0a00a9e53f8d36e070') in 0.029811 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/CyberCity/Textures/dpcar white_Albedo.tga
+  artifactKey: Guid(f250dcafbec4adf4abea0070e46c1fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Textures/dpcar white_Albedo.tga using Guid(f250dcafbec4adf4abea0070e46c1fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3c96de872294441c0014a453ac9702') in 0.034682 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 16.742480 seconds.
+  path: Assets/CyberCity/Materials
+  artifactKey: Guid(9591a51dfd6fb9a4a8517fc2c0fc92de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/Materials using Guid(9591a51dfd6fb9a4a8517fc2c0fc92de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d12e4a9bbc7aed0ecf2dd55cc15192') in 0.006754 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 35.743473 seconds.
+  path: Assets/CyberCity/city 2021 HDRP!.unity
+  artifactKey: Guid(6e8aec34a044f9e4bb9e3cd6370949fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CyberCity/city 2021 HDRP!.unity using Guid(6e8aec34a044f9e4bb9e3cd6370949fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de78f4ab517844d97b9df184f247ff25') in 0.005916 seconds 
+Number of asset objects unloaded after import = 0
